@@ -3,6 +3,7 @@ import './Testimonials.css';
 
 const Testimonials = () => {
   return (
+<<<<<<< HEAD
     <section className="testimonials-section">
       <h2 className="section-title">WORDS OF LOVE</h2>
       <div className="testimonial-grid">
@@ -25,6 +26,44 @@ const Testimonials = () => {
           <p className="quote-text">"An incredible storytelling experience. We felt so comfortable and the results are timeless."</p>
           <span className="client-name">— MURALI & MEENA</span>
         </motion.div>
+=======
+    <section className="testimonials">
+
+      <span className="tag">
+        WHAT CLIENTS SAY
+      </span>
+
+      <h2>
+        TESTIMONIALS
+      </h2>
+
+      <div className="testimonial-banner">
+
+        <img
+          src={testimonialImg}
+          alt="couple"
+        />
+
+        <div className="testimonial-overlay">
+
+          <h3>
+        Hariram & Keerthana
+
+          </h3>
+
+          <p>
+            Our wedding memories were captured so beautifully.
+            Every image feels timeless and emotional.
+            Truly a wonderful experience.
+          </p>
+
+          {/* <button>
+            READ MORE
+          </button> */}
+
+        </div>
+
+>>>>>>> e68762a38603c19e98a222fc313ea7798b938458
       </div>
     </section>
   );

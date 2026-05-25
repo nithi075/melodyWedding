@@ -7,6 +7,12 @@ import heroImage from '../../assets/hero1.jpg';
 const Hero = () => {
   return (
     <section className="hero">
+    <section className="hero" id="home">
+      {/* Navbar - Original logic with premium CSS */}
+      <nav className="navbar">
+        <div className="logo">
+          <img src={logoimg} alt="Golden Lights Photography Logo" />
+        </div>
 
       {/* Background Image Container */}
       <motion.div
