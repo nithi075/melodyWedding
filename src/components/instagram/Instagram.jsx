@@ -61,7 +61,7 @@ const Instagram = () => {
       {/* Footer link */}
       <div className="insta-footer-link">
         <a
-          href="https://www.instagram.com/goldenlights_photography/"
+          href="https://www.instagram.com/"
           target="_blank"
           rel="noopener noreferrer"
         >

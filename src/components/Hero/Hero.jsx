@@ -21,20 +21,27 @@ const Hero = () => {
       <div className="hero-overlay"></div>
 
       {/* Content */}
-      <motion.div
-        initial={{ opacity: 0, y: 30 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1.2, ease: "easeOut" }}
-        className="hero-content"
-      >
-        <p className="hero-subtitle">
-          CRAFTING TIMELESS MEMORIES
-        </p>
+   {/* Content */}
+<motion.div
+  initial={{ opacity: 0, y: 30 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 1.2, ease: "easeOut" }}
+  className="hero-content"
+>
+  <p className="hero-subtitle">
+    CRAFTING TIMELESS MEMORIES
+  </p>
 
-        <h1 className="hero-title">
-          DEVI PHOTOGRAPHY
-        </h1>
-      </motion.div>
+  <h1 className="hero-title">
+    THE MELODY WEDDINGS
+  </h1>
+
+  {/* New Tagline */}
+  <p className="hero-tagline">
+    We don’t click photos , we create Memories ✨
+  </p>
+
+</motion.div>
 
     </section>
   );

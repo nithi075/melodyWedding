@@ -72,3 +72,28 @@
     letter-spacing: 0.2em; /* Mobile-la letter spacing-ai konjam kammi pannalam */
   }
 }
+/* Hero Tagline */
+.hero-tagline {
+  margin-top: 18px;
+  font-size: clamp(0.8rem, 2vw, 1rem);
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.45);
+  display: inline-block;
+  padding: 12px 22px;
+  border-radius: 12px;
+  letter-spacing: 1px;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+  font-weight: 400;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+  .hero-tagline {
+    font-size: 0.75rem;
+    padding: 10px 16px;
+    margin-top: 14px;
+    line-height: 1.5;
+  }
+}

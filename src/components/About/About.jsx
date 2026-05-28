@@ -17,7 +17,7 @@ const About = () => {
           transition={{ duration: 0.8 }}
           className="about-image"
         >
-          <img src={aboutImage} alt="Photographer" />
+          {/* <img src={aboutImage} alt="Photographer" /> */}
         </motion.div>
 
         {/* Right Content */}

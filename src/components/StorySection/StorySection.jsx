@@ -2,8 +2,8 @@ import { motion } from 'framer-motion';
 import './StorySection.css';
 
 // Import your images
-import story1 from '../../assets/story3.jpg';
-import story2 from '../../assets/story4.jpg';
+import story1 from '../../assets/story4.jpg';
+import story2 from '../../assets/story3.jpg';
 
 const StorySection = () => {
   return (
@@ -25,8 +25,8 @@ const StorySection = () => {
             <img src={story1} alt="Wedding Story 1" />
           </div>
 
-          <h3>Sudharshan & Meenakshi</h3>
-          <p className="location">Trichy ,Tamilnadu</p>
+          <h3>Sasikumar & Sankari</h3>
+          <p className="location">Karaikudi  ,Tamilnadu</p>
         </motion.div>
 
         {/* Second Story */}
@@ -40,7 +40,7 @@ const StorySection = () => {
             <img src={story2} alt="Wedding Story 2" />
           </div>
 
-          <h3>Vignesh & Monisha</h3>
+          <h3> Hemprithy & Mahesh </h3>
           <p className="location">Trichy, Tamilnadu</p>
         </motion.div>
 

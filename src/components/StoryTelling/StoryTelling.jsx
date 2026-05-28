@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import "./Storytelling.css";
+import "./StoryTelling.css";
 
 // Import your images
 import maternityMain from "../../assets/img1.jpg";
@@ -10,10 +10,10 @@ import newbornFloat from "../../assets/img4.jpg";
 
 const photographyData = [
   {
-    id: 1,
-    mini: "Maternity Photography",
-    title: "THE BEAUTY OF WAITING",
-    desc: "I capture the radiant journey of motherhood, documenting the quiet strength and anticipation of your most precious chapter in a timeless, artistic way.",
+     id: 1,
+  mini: "Bride Photography",
+  title: "THE ELEGANCE OF A BRIDE",
+  desc: "I capture the grace, beauty, and emotions of a bride’s most unforgettable moments, turning every glance, smile, and detail into timeless memories filled with love and elegance.",
     
     imageMain: maternityMain,
     imageFloat: maternityFloat,
@@ -47,9 +47,7 @@ const StoryBlock = ({ item, isReverse }) => (
 
       <img src={item.imageMain} alt={item.title} />
 
-      <div className="story-floating">
-        <img src={item.imageFloat} alt="Detail shot" />
-      </div>
+  
 
     </div>
 
